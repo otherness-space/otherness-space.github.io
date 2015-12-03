@@ -51,7 +51,7 @@ ________________________________________________________________________________
 codesniffer.ruleset.xml export-ignore
 ```
 
-https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Exporting-Your-Repository
+<a href="http://https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Exporting-Your-Repository">http://https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Exporting-Your-Repository</a>
 
 ### .gitignore [:rewind:](#read-me)
 
