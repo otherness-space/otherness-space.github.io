@@ -1,14 +1,359 @@
-### Welcome to GitHub Pages.
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.
+<!DOCTYPE html>
 
-### Designer Templates
-We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+<html lang="en">
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
 
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<head>
+
+  <meta charset="utf-8">
+  <!-- https://google.github.io/styleguide/htmlcssguide.html#Encoding -->
+  <!-- https://www.w3.org/International/questions/qa-html-encoding-declarations -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- A maximum-scale=1.0 value is sometimes used to prevent small iOS Safari-like zooming, which has the sometimes-unwanted side effect of preventing users from zooming in for optimal UX. Suppress the small zoom applied by many smartphones by setting the initial scale and minimum-scale values to 0.86. The result is horizontal scroll is supressed in any orientation and the user can zoom in if they want to. -->
+  <!-- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"> -->
+  <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML -->
+
+  <meta content="text">
+  <!-- Many people argue that author is useless -->
+  <meta name="author" content="first-name last-name">
+  <!-- Some argue indifference about description -->
+  <meta name="description" content="thesis sentence">
+  <!-- Meta tags Google will read: https://support.google.com/webmasters/answer/79812?hl=en -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon-sm.ico">
+  <title>&#8756; &lt;&#9874;&gt; &#123;&#8853;&#10753;&#125; &sum; &#9784; &#9760; &#9762; &#9763;&#9773;&#9935;</title>
+
+  <!-- <link rel="stylesheet" href="assets/materialize.css"> -->
+  <!-- <link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/boots
+trap.min.css" /> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/prism.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style-2.css">
+
+
+  <!-- <script src="assets/materialize.js"></script> -->
+  <script src="assets/js/prism.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- <script src="assets/my-js-file.js"></script> -->
+</head>
+
+<body class="d-block" data-toggle="tooltip" data-html="true" title="body">
+
+  <!-- begin header  -->
+  <header class="container-fluid d-block neon-shadow-blue" data-toggle="tooltip" data-html="true" title="header">
+    <div class="row text-white">
+      <div class="col-sm-12">
+        <h1 class="h1">
+          make
+          <i class="material-icons" data-toggle="tooltip" data-html="true" title="make code">code</i>
+          <i class="material-icons" data-toggle="tooltip" data-html="true" title="make notation">notes</i>
+          <i class="material-icons d-none d-md-inline-block" data-toggle="tooltip" data-html="true" title="make transformation">transform</i>
+          <i class="material-icons d-none d-md-inline-block" data-toggle="tooltip" data-html="true" title="make fine tuned products">tune</i>
+        </h1>
+      </div>
+      <div class="offset-sm-1">
+      </div>
+      <div class="col-sm-11">
+        <h1 class="h1">
+          measure
+          <i class="material-icons d-none d-md-inline-block" data-toggle="tooltip" data-html="true" title="measure thru dashboards">dashboard</i>
+          <i class="material-icons d-none d-md-inline-block" data-toggle="tooltip" data-html="true" title="measure changes">track_changes</i>
+          <!-- <i class="material-icons hide-icon"  data-toggle="tooltip" data-html="true" title="">pie_chart</i> -->
+          <i class="material-icons d-none d-md-inline-block" data-toggle="tooltip" data-html="true" title="measure details d-none d-md-inline-block">linear_scale</i>
+          <i class="material-icons d-none d-md-inline-block" data-toggle="tooltip" data-html="true" title="measure flow">import_export</i>
+        </h1>
+      </div>
+      <div class="offset-sm-2">
+      </div>
+      <div class="col-sm-10">
+        <h1 class="h1">
+          learn
+          <i class="material-icons" data-toggle="tooltip" data-html="true" title="learn customer applications">get_app</i>
+          <i class="material-icons" data-toggle="tooltip" data-html="true" title="learn to listen closely">publish</i>
+        </h1>
+      </div>
+    </div>
+    <!-- begin nav-0 -->
+    <nav class="text-white" data-toggle="tooltip" data-html="true" title="nav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <i class="material-icons nav-link" data-toggle="tooltip" title="home">home</i>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-1" data-toggle="tooltip" title="next"><i class="material-icons">play_for_work</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-13" data-toggle="tooltip" title="info"><i class="material-icons">info</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-14" data-toggle="tooltip" title="contact"><i class="material-icons">contact_support</i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end nav-0 -->
+
+    <div class="jumbotron bx-5">
+
+    </div>
+
+    <!-- begin nav-1 -->
+    <nav id="story-1" class="text-white" data-toggle="tooltip" data-html="true" title="nav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#top" data-toggle="tooltip" title="top"><i class="material-icons" data-toggle="tooltip" title="home">home</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-2" data-toggle="tooltip" title="next"><i class="material-icons">play_for_work</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-13" data-toggle="tooltip" title="info"><i class="material-icons">info</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-14" data-toggle="tooltip" title="contact"><i class="material-icons">contact_support</i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- end nav-1 -->
+
+    <div class="jumbotron bx-7">
+
+    </div>
+
+    <!-- begin nav-2 -->
+    <nav id="story-2" class="text-white" data-toggle="tooltip" data-html="true" title="nav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#top" data-toggle="tooltip" title="top"><i class="material-icons" data-toggle="tooltip" title="home">home</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-3" data-toggle="tooltip" title="next"><i class="material-icons">play_for_work</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-13" data-toggle="tooltip" title="info"><i class="material-icons">info</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-14" data-toggle="tooltip" title="contact"><i class="material-icons">contact_support</i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end nav-2 -->
+
+    <div class="jumbotron bx-7">
+
+    </div>
+
+    <!-- begin nav-3 -->
+    <nav id="story-3" class="text-white" data-toggle="tooltip" data-html="true" title="nav">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#top" data-toggle="tooltip" title="top"><i class="material-icons" data-toggle="tooltip" title="home">home</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-4" data-toggle="tooltip" title="next"><i class="material-icons">play_for_work</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-13" data-toggle="tooltip" title="info"><i class="material-icons">info</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#story-14" data-toggle="tooltip" title="contact"><i class="material-icons">contact_support</i></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- end nav-3 -->
+
+    <div class="jumbotron bx-7">
+
+    </div>
+
+  </header>
+  <!-- end header -->
+
+  <!-- begin main -->
+  <main class="container-fluid d-block moon" data-toggle="tooltip" data-html="true" title="main">
+    <div class="row">
+      <!-- begin article-1 -->
+      <article class="d-block col-sm-12 bx-6" data-toggle="tooltip" data-html="true" title="article-1">
+        <!-- begin nav-4 -->
+        <nav id="story-4" class="text-white" data-toggle="tooltip" data-html="true" title="nav">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#top" data-toggle="tooltip" title="top"><i class="material-icons" data-toggle="tooltip" title="home">home</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story-5" data-toggle="tooltip" title="next"><i class="material-icons">play_for_work</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story-13" data-toggle="tooltip" title="info"><i class="material-icons">info</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story-14" data-toggle="tooltip" title="contact"><i class="material-icons">contact_support</i></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- end nav-4 -->
+
+        <div class="jumbotron bx-7">
+
+        </div>
+      </article>
+
+      <!-- end article-1 -->
+
+      <!-- begin article-2 -->
+
+      <article class="d-block col-sm-12 article-2 bx-8" data-toggle="tooltip" data-html="true" title="article-2">
+
+        <!-- begin nav-5 -->
+        <nav id="story-5" class="text-white" data-toggle="tooltip" data-html="true" title="nav">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#top" data-toggle="tooltip" title="top"><i class="material-icons" data-toggle="tooltip" title="home">home</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story-6" data-toggle="tooltip" title="next"><i class="material-icons">play_for_work</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story-13" data-toggle="tooltip" title="info"><i class="material-icons">info</i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story-14" data-toggle="tooltip" title="contact"><i class="material-icons">contact_support</i></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- end nav-5 -->
+
+        <div class="jumbotron bx-7">
+
+        </div>
+
+    </div>
+    </article>
+
+    <!-- end article-2 -->
+
+    <!-- begin article-3 -->
+    <article class="d-block col-sm-12 bx-6" data-toggle="tooltip" data-html="true" title="article-3">
+      <!-- begin nav-6 -->
+      <nav id="story-6" class="text-white" data-toggle="tooltip" data-html="true" title="nav">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#top" data-toggle="tooltip" title="top"><i class="material-icons" data-toggle="tooltip" title="home">home</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#story-7" data-toggle="tooltip" title="start!"><i class="material-icons">play_for_work</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#story-13" data-toggle="tooltip" title="info"><i class="material-icons">info</i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#story-14" data-toggle="tooltip" title="contact"><i class="material-icons">contact_support</i></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- end nav-6 -->
+
+      <div class="jumbotron bx-7">
+
+      </div>
+    </article>
+    <!-- end article-3 -->
+
+    </div>
+  </main>
+  <!-- end main -->
+
+  <!-- begin section -->
+  <section class="" data-toggle="tooltip" data-html="true" title="section">
+    <div class="">
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- begin aside -->
+  <aside class="" data-toggle="tooltip" data-html="true" title="aside">
+    <div class="">
+    </div>
+  </aside>
+  <!-- end aside -->
+
+  <!-- begin footer -->
+  <footer class="container-fluid" data-toggle="tooltip" data-html="true" title="footer">
+    <div class="row">
+      <div class="col-sm-12 text-center" data-toggle="tooltip" data-html="true" title="https://fontawesome.com/icons?d=gallery&m=free">
+        <i class="fab fa-github" data-toggle="tooltip" data-html="true" title="github"></i>
+        <i class="fab fa-gitlab" data-toggle="tooltip" data-html="true" title="gitlab"></i>
+        <i class="fab fa-bitbucket" data-toggle="tooltip" data-html="true" title="bitbucket"></i>
+        <i class="fab fa-gitter" data-toggle="tooltip" data-html="true" title="gitter"></i>
+        <i class="fab fa-stack-exchange" data-toggle="tooltip" data-html="true" title="stackexchange"></i>
+        <i class="fab fa-stack-overflow" data-toggle="tooltip" data-html="true" title="stackoverflow"></i>
+        <i class="fab fa-slack-hash" data-toggle="tooltip" data-html="true" title="slack"></i>
+        <i class="fab fa-trello  text-primary bg-white" data-toggle="tooltip" data-html="true" title="trello"></i>
+        <i class="fab fa-codepen" data-toggle="tooltip" data-html="true" title="codepen"></i>
+        <i class="fab fa-medium" data-toggle="tooltip" data-html="true" title="medium"></i>
+        <i class="fab fa-wordpress" data-toggle="tooltip" data-html="true" title="wordpress"></i>
+
+        <i class="fas fa-rss text-danger" data-toggle="tooltip" data-html="true" title="rss"></i>
+
+        <i class="fab fa-yoast" data-toggle="tooltip" data-html="true" title="yoast"></i>
+        <i class="fab fa-wikipedia-w" data-toggle="tooltip" data-html="true" title="wikipedia"></i>
+        <i class="fab fa-twitter text-primary" data-toggle="tooltip" data-html="true" title="twitter"></i>
+        <i class="fab fa-youtube  text-danger" data-toggle="tooltip" data-html="true" title="youtube"></i>
+        <i class="fab fa-patreon" data-toggle="tooltip" data-html="true" title="patreon"></i>
+        <i class="fab fa-paypal" data-toggle="tooltip" data-html="true" title="paypal"></i>
+        <i class="fab fa-linkedin text-primary bg-white" data-toggle="tooltip" data-html="true" title="linkedin"></i>
+        <i class="fab fa-dribble" data-toggle="tooltip" data-html="true" title="dribble"></i>
+        <i class="fab fa-meetup" data-toggle="tooltip" data-html="true" title="meetup"></i>
+        <i class="fab fa-mailchimp" data-toggle="tooltip" data-html="true" title="mailchimp"></i>
+        <i class="fab fa-free-code-camp" data-toggle="tooltip" data-html="true" title="freecodecamp"></i>
+        <i class="fab fa-linux" data-toggle="tooltip" data-html="true" title="linux"></i>
+        <i class="fab fa-freebsd" data-toggle="tooltip" data-html="true" title="freebsd"></i>
+        <i class="fab fa-whmcs text-secondary" data-toggle="tooltip" data-html="true" title="whmcs"></i>
+        <i class="fab fa-cpanel" data-toggle="tooltip" data-html="true" title="cpanel"></i>
+        <i class="fab fa-docker" data-toggle="tooltip" data-html="true" title="docker"></i>
+        <i class="fab fa-dropbox text-primary bg-white" data-toggle="tooltip" data-html="true" title="dropbox"></i>
+        <i class="fab fa-google-drive" data-toggle="tooltip" data-html="true" title="googledrive"></i>
+        <i class="fab fa-html5" data-toggle="tooltip" data-html="true" title="html5"></i>
+        <i class="fab fa-css3" data-toggle="tooltip" data-html="true" title="css3"></i>
+        <i class="fab fa-sass" data-toggle="tooltip" data-html="true" title="sass"></i>
+        <i class="fab fa-markdown" data-toggle="tooltip" data-html="true" title="markdown"></i>
+        <i class="fab fa-php text-secondary" data-toggle="tooltip" data-html="true" title="php"></i>
+        <i class="fab fa-node" data-toggle="tooltip" data-html="true" title="node"></i>
+        <i class="fab fa-npm" data-toggle="tooltip" data-html="true" title="npm"></i>
+        <i class="fab fa-python" data-toggle="tooltip" data-html="true" title="python"></i>
+        <i class="fab fa-r-project" data-toggle="tooltip" data-html="true" title="R project"></i>
+        <i class="fab fa-angular text-danger" data-toggle="tooltip" data-html="true" title="angular"></i>
+        <i class="fab fa-vuejs" data-toggle="tooltip" data-html="true" title="vuejs"></i>
+        <i class="fab fa-grunt" data-toggle="tooltip" data-html="true" title="grunt"></i>
+        <i class="fab fa-gulp" data-toggle="tooltip" data-html="true" title="gulp"></i>
+        <i class="fab fa-erlang" data-toggle="tooltip" data-html="true" title="erlang"></i>
+        <i class="fab fa-fort-awesome text-white bg-primary" data-toggle="tooltip" data-html="true" title="fontawesome"></i>
+
+        <i class="fab fa-readme" data-toggle="tooltip" data-html="true" title="readme"></i>
+
+        <i class="fab fa-rebel" data-toggle="tooltip" data-html="true" title="rebel"></i>
+        <i class="fab fa-napster" data-toggle="tooltip" data-html="true" title="napster"></i>
+
+        <i class="fas fa-code-branch" data-toggle="tooltip" data-html="true" title="git branch"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+</body>
+
+</html>
