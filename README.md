@@ -1,57 +1,62 @@
-# Read Me
+# [Folio](https://github.com/otherness-space/folio/) [Read Me](https://github.com/otherness-space/folio/README.md)
 
-## Contents                                                                                                            
-##### [About](#about-rewind) | [Who](#who-rewind) | [What](#what-rewind) | [Where](#where-rewind) | [Why](#why-rewind) | [How](#how-rewind)
+## Contents
 
-#### [Notes](#notes-rewind)
+##### [About](#about-) \| [Who](#who-) \| [What](#what-) \| [Where](#where-) \| [Why](#why-) \| [How](#how-)
 
-##### [Note 1](#note-1-rewind) | [Note 2](#note-2-rewind)
+#### [Notes](#notes-)
 
-#### [Appendix](#appendix-rewind)                                                                                      
-##### [.gitattributes](#gitattributes-rewind) | [.gitignore](#gitignore-rewind) | [.exclude](#exclude-rewind)
+##### [Note 1](#note-1-) \| [Note 2](#note-2-)
 
-### [Credits](#credits-rewind)
------------------------------------------------------------------------------------------------------------------------
-## About [:rewind:](#read-me)
+#### [Appendix](#appendix-)
+
+##### [.gitattributes](#gitattributes-) \| [.gitignore](#gitignore-) \| [.exclude](#exclude-)
+
+### [Credits](#credits-)
+
+* * *
+
+## About [≪](#folio-read-me)
 
 This is a starter repo.
 
-### Who [:rewind:](#read-me)
+### Who [≪](#folio-read-me)
 
 Your Mom's blank repo.
 
-### What [:rewind:](#read-me)
+### What [≪](#folio-read-me)
 
 Blank repo.
 
-- [x] A
-- [ ] B
-  - [ ] C
-  - [ ] D
-- [ ] E
+-   [x] A
+-   [ ] B
+    -   [ ] C
+    -   [ ] D
+-   [ ] E
 
-### Where [:rewind:](#read-me)
-
-Blank
-
-### Why [:rewind:](#read-me)
+### Where [≪](#folio-read-me)
 
 Blank
 
-### How [:rewind:](#read-me)
+### Why [≪](#folio-read-me)
 
-________________________________________________________________________________
-## Notes [:rewind:](#read-me)
+Blank
 
-### Note 1 [:rewind:](#read-me)
+### How [≪](#folio-read-me)
 
+* * *
 
-### Note 2 [:rewind:](#read-me)
+## Notes [≪](#folio-read-me)
 
-________________________________________________________________________________
-## Appendix [:rewind:](#read-me)
+### Note 1 [≪](#folio-read-me)
 
-### .gitattributes [:rewind:](#read-me)
+### Note 2 [≪](#folio-read-me)
+
+* * *
+
+## Appendix [≪](#folio-read-me)
+
+### .gitattributes [≪](#folio-read-me)
 
 > Git attribute data also allows you to do some interesting things when exporting an archive of your project.
 
@@ -63,18 +68,17 @@ ________________________________________________________________________________
 codesniffer.ruleset.xml export-ignore
 ```
 
-https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Exporting-Your-Repository
+<https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Exporting-Your-Repository>
 
-### .gitignore [:rewind:](#read-me)
+### .gitignore [≪](#folio-read-me)
 
+### .exclude [≪](#folio-read-me)
 
-### .exclude [:rewind:](#read-me)
+* * *
 
-________________________________________________________________________________
-
-### Credits [:rewind:](#read-me)
+### Credits [≪](#folio-read-me)
 
 Third party resources applied in this repo. Each resource uses a GPL compatible license. The resources are listed according to each individual license, as noted, and have links where applicable.
 
-*
-  *
+\*
+  \*
