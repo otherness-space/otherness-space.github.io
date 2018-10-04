@@ -1,0 +1,260 @@
+:root {
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 36em;
+  --breakpoint-md: 48em;
+  --breakpoint-lg: 62em;
+  --breakpoint-xl: 75em;
+}
+
+html,
+body {
+  /* display: block; */
+  box-sizing: border-box;
+}
+
+html {
+  /* background: #fff center/cover no-repeat border-box; */
+  background: rgba(0, 128, 0, .2) center/cover no-repeat border-box;
+  /* green */
+  font: normal 400 100%/1.1414;
+}
+
+body {
+  width: 98.5vw;
+  margin: 0 auto;
+  border: 1px solid #000;
+  padding: 0;
+  font-size: 1em;
+  z-index: 0;
+}
+
+header {
+  /* height: 20em; */
+  height: 209.5625em;
+  border: 1px solid #000;
+  background: rgba(255, 255, 255, 1) url("../../imgs/alley-6.jpg") center/cover no-repeat border-box;
+  /* blue */
+}
+
+nav {
+  /* height: 10em; */
+  /* border: 1px solid #fff; */
+  background: rgba(255, 0, 0, 0) center/cover no-repeat border-box;
+  /* red */
+}
+
+main {
+  height: 100vh;
+  border: 1px solid #000;
+  /* background: #008000 center/cover no-repeat border-box; */
+  /* green */
+  background: rgba(255, 255, 0, .2) center/cover no-repeat border-box;
+  /* yellow */
+}
+
+section {
+  border: 1px solid #000;
+  background: rgba(255, 255, 0, .2) center/cover no-repeat border-box;
+  /* yellow */
+  /* background: rgba(0, 128, 0, .2) center/cover no-repeat border-box; */
+  /* green */
+}
+
+article {
+  height: 10em;
+  border: 1px solid #000;
+  background: rgba(128, 0, 128, .2) center/cover no-repeat border-box;
+  /* purple */
+}
+
+.article-2 {
+  height: 10em;
+  border: 1px solid #fff;
+  background: rgba(255, 165, 0, .2) center/cover no-repeat border-box;
+  /* orange */
+}
+
+aside {
+  height: 5em;
+  border: 1px solid #000;
+  background: rgba(255, 0, 255, .2) center/cover no-repeat border-box;
+  /* fuchsia */
+  font-size: .85em;
+}
+
+footer {
+  position: fixed;
+  bottom: 1em;
+  height: 2.5em;
+  border: 1px solid #fff;
+  background: rgba(0, 255, 255, .2) center/cover no-repeat border-box;
+  /* cyan */
+}
+
+.bx-4 {
+  height: 25em;
+  background: rgba(255, 255, 255, .1) center/cover no-repeat border-box;
+}
+
+.bx-5 {
+  height: 31.25em;
+  background: rgba(255, 255, 255, .1) center/cover no-repeat border-box;
+}
+
+.bx-6 {
+  height: 37.5em;
+  background: rgba(255, 255, 255, .1) center/cover no-repeat border-box;
+}
+
+.bx-7 {
+  height: 43.75em;
+  background: rgba(255, 255, 255, .1) center/cover no-repeat border-box;
+}
+
+.bx-8 {
+  height: 50em;
+  background: rgba(255, 255, 255, .1) center/cover no-repeat border-box;
+}
+
+.moon {
+  /* width: auto; */
+  height: 3171px;
+  /* padding: 900px 0 0 0; */
+  background-image: url("../../imgs/moon-2.jpg");
+}
+
+/* typography */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4::first-line {
+  margin: 1.414em 0 .05em;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  margin: 0;
+  line-height: 1;
+}
+
+h1,
+.h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+header .h1 {
+  text-transform: uppercase;
+}
+
+h2,
+.h2 {
+  font-size: 2.827em;
+}
+
+h3,
+.h3 {
+  font-size: 1.999em;
+}
+
+h4,
+.h4 {
+  font-size: 1.414em;
+}
+
+small,
+.font_small {
+  font-size: 0.707em;
+}
+
+p {
+  margin: 0 0 1.2em 0;
+}
+
+.display-1 {
+  font: normal 6em;
+}
+
+.display-2 {
+  font: initial initial 300 5.5em/1.14;
+}
+
+.display-3 {
+  font: normal 4.5em;
+}
+
+.display-4 {
+  font: normal 3.5em;
+}
+
+a {}
+
+a:hover {}
+
+a:active {}
+
+a:visited {}
+
+ul li a {
+  color: rgba(0, 123, 255, 1);
+  text-shadow: 2px 3px 10px rgba(4, 163, 229, 0;
+}
+
+ul li a:hover {
+  text-shadow: 2px 3px 10px rgba(255, 255, 255, .85);
+}
+
+.neon-shadow-blue {
+  text-transform: uppercase;
+  text-shadow: 2px 3px 15px rgba(4, 163, 229, 1);
+}
+
+.material-icons {
+  font: normal normal 1.75em/1;
+}
+
+/* breakpoints */
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 36em) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 48em) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 62em) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 75em) {}
+
+// Extra small devices (portrait phones, less than 576px)
+/* @media (max-width: 575.98px) {} */
+@media (max-width: 35.99875em) {}
+
+// Small devices (landscape phones, less than 768px)
+/* @media (max-width: 767.98px) {} */
+@media (max-width: 47.99875em) {}
+
+// Medium devices (tablets, less than 992px)
+/* @media (max-width: 991.98px) {} */
+@media (max-width: 61.99875em) {}
+
+@media (max-width: 63.81125em) {}
+
+// Large devices (desktops, less than 1200px)
+/* @media (max-width: 1199.98px) {} */
+@media (max-width: 74.99875em) {}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
