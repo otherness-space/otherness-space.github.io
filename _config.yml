@@ -1,8 +1,8 @@
 title: This is a Page Name
 description: This is a Tagline
-google_analytics: 
+google_analytics:
 show_downloads: true
 theme: jekyll-theme-hacker
 
-gems:
+plugins:
   - jekyll-mentions
