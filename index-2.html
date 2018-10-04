@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- https://google.github.io/styleguide/htmlcssguide.html#Encoding -->
+  <!-- https://www.w3.org/International/questions/qa-html-encoding-declarations -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- A maximum-scale=1.0 value is sometimes used to prevent small iOS Safari-like zooming, which has the sometimes-unwanted side effect of preventing users from zooming in for optimal UX. Suppress the small zoom applied by many smartphones by setting the initial scale and minimum-scale values to 0.86. The result is horizontal scroll is supressed in any orientation and the user can zoom in if they want to. -->
+  <!-- https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"> -->
+  <!-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML -->
+
+  <meta content="text">
+  <!-- Many people argue that author is useless -->
+  <meta name="author" content="first-name last-name">
+  <!-- Some argue indifference about description -->
+  <meta name="description" content="thesis sentence">
+  <!-- Meta tags Google will read: https://support.google.com/webmasters/answer/79812?hl=en -->
+
+  <title>tab title</title>
+
+  <!-- <link rel="stylesheet" href="assets/materialize.css"> -->
+  <!-- <link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/boots
+trap.min.css" /> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/prism.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" href="assets/css/style-2.css"> -->
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
+
+  <!-- <script src="assets/materialize.js"></script> -->
+  <script src="assets/js/prism.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- <script src="assets/my-js-file.js"></script> -->
+</head>
+
+<body class="">
+
+  <header>
+    <div class="row">
+      <div class="col-sm-12 text-white neon-shadow-blue">
+        <h1 class="display-1">
+          make
+          <i class="material-icons">code</i>
+          <i class="material-icons">notes</i>
+          <i class="material-icons">transform</i>
+          <i class="material-icons">tune</i>
+        </h1>
+      </div>
+      <!-- <div class="offset-sm-6">
+      </div> -->
+    </div>
+    <div class="row">
+      <div class="offset-sm-1">
+      </div>
+      <div class="col-sm-11 text-white neon-shadow-blue">
+        <h1>
+          measure
+          <i class="material-icons hide-icon">scatter_plot</i>
+          <i class="material-icons hide-icon">track_changes</i>
+          <i class="material-icons hide-icon">pie_chart</i>
+          <i class="material-icons">linear_scale</i>
+          <i class="material-icons">import_export</i>
+        </h1>
+      </div>
+      <!-- <div class="offset-sm-5">
+      </div> -->
+    </div>
+    <div class="row">
+      <div class="offset-sm-2">
+      </div>
+      <div class="col-sm-10 text-white neon-shadow-blue">
+        <h1>
+          learn
+          <i class="material-icons">get_app</i>
+          <i class="material-icons">publish</i>
+        </h1>
+      </div>
+      <!-- <div class="offset-sm-4">
+      </div> -->
+    </div>
+    <div id="story-0" class="row">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons" data-toggle="tooltip" title="home">home</i>
+        <i class="material-icons"><a href="#story-1" data-toggle="tooltip" title="start!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+    </div>
+    <div id="story-1" class="row">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-2">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+    </div>
+    <div id="story-2" class="row">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-3" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+    </div>
+    <div id="story-3" class="row">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-4" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+    </div>
+
+  </header>
+
+  <article class="moon">
+    <div id="story-4" class="row">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-5" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+    </div>
+  </article>
+
+  <article class="tea">
+    <div id="story-5" class="row">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-6" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+    </div>
+    <div id="story-6" class="row">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-7" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+    </div>
+  </article>
+
+  <article class=" blur-lg-up">
+    <div id="story-7" class="row case-studies">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-8" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+      <div class="container col-sm-8 case-study">
+        <h3>What I am Showing<i class="material-icons showing">build</i></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h3>The Problem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h3>The Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h3>Impact</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </article>
+
+  <article class=" blur-lg-up">
+    <div id="story-8" class="row case-studies">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-9" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+      <div class="container col-sm-8 case-study">
+        <h3>What I am Showing<i class="material-icons showing">android</i></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h3>The Problem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h3>The Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h3>Impact</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </article>
+
+  <article class=" blur-lg-up">
+    <div id="story-9" class="row case-studies">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-10" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+      <div class="container col-sm-8 case-study">
+        <h3>What I am Showing<i class="material-icons showing">aspect_ratio</i></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h3>The Problem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h3>The Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h3>Impact</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </article>
+
+  <article class=" blur-lg-up">
+    <div id="story-10" class="row case-studies">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-11" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+      <div class="container col-sm-8 case-study">
+        <h3>What I am Showing<i class="material-icons showing">assignment</i></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h3>The Problem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h3>The Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h3>Impact</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </article>
+
+  <article class=" blur-lg-up">
+    <div id="story-11" class="row case-studies">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-12" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+      <div class="container col-sm-8 case-study">
+        <h3>What I am Showing<i class="material-icons showing">assignment_late</i></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h3>The Problem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h3>The Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h3>Impact</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </article>
+
+  <article class=" blur-lg-up">
+    <div id="story-12" class="row case-studies">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+      <div class="container col-sm-8 case-study">
+        <h3>What I am Showing<i class="material-icons showing">assignment_returned</i></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h3>The Problem</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <h3>The Solution</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <h3>Impact</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      </div>
+    </div>
+    </div>
+  </article>
+
+  <article class=" blur-lg-up">
+    <div id="story-13" class="row case-studies">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="next!">play_for_work</a></i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+      <div class="container col-sm-8 case-study">
+        <h3>about<i class="material-icons showing">info</i></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+      </div>
+    </div>
+    </div>
+  </article>
+
+  <article class=" blur-lg-up">
+    <div id="story-14" class="row case-studies">
+      <div class="offset-sm-5">
+      </div>
+      <div class="col-sm-2 text-center">
+        <i class="material-icons"><a href="#top">home</a></i>
+        <i class="material-icons" data-toggle="tooltip" title="end!">play_for_work</i>
+        <i class="material-icons"><a href="#story-13" data-toggle="tooltip" title="info">info</a></i>
+        <i class="material-icons"><a href="#story-14" data-toggle="tooltip" title="contact">contact_support</a></i>
+      </div>
+      <div class="offset-sm-5">
+      </div>
+      <div class="container col-sm-8 case-study">
+        <h3>contact<i class="material-icons showing">contact_support</i></h3>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Enter</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email, i.e.: name@example.com">
+          </div>
+          <div>
+            <label for="exampleFormControlInput2">Enter</label>
+          </div>
+          <div class="input-group-addon2">
+            <input type="text" class="form-control" placeholder="Your name" aria-label="Enter Your name" aria-describedby="basic-addon2">
+
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Enter your message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="nom, nom, nom ...."></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+    </div>
+    </div>
+  </article>
+
+
+  <article>
+    <div id="" class="">
+    </div>
+  </article>
+
+  <!-- <nav>
+  </nav>
+
+  <main>
+  </main>
+
+  <section>
+  </section>
+
+  <article>
+  </article>
+
+  <aside>
+  </aside>
+
+  <footer>
+  </footer> -->
+
+</body>
+
+</html>

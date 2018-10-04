@@ -1,0 +1,254 @@
+:root {
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 36em;
+  --breakpoint-md: 48em;
+  --breakpoint-lg: 62em;
+  --breakpoint-xl: 75em;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.414;
+}
+
+body {
+  left: 0;
+  display: block;
+  box-sizing: border-box;
+  width: 97vw;
+  /* margin: 0; */
+  border: 1px solid black;
+  /* padding: 5.5555vh 11.1111vw 11.1111vh 5.5555vw; */
+  font-size: 1em;
+  background-color: #000;
+}
+
+header {
+  height: 3353px;
+  background-image: url("../../imgs/alley-6.jpg");
+  /* width: 100vw; */
+  /* margin: 0; */
+  border: 1px solid black;
+}
+
+nav {}
+
+main {}
+
+section {}
+
+aside {}
+
+footer {}
+
+html,
+body,
+header,
+nav,
+main,
+article,
+section,
+aside,
+footer,
+.container,
+.container-fluid,
+.alley,
+.moon {
+  /* margin: 0 auto; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*
+#story-0,
+#story-1,
+#story-2,
+#story-3,
+#story-4,
+#story-5,
+#story-6 {
+  height: 600px;
+}
+
+#story-7,
+#story-8,
+#story-9,
+#story-10,
+#story-11,
+#story-12,
+#story-13 {
+  height: 700px;
+
+} */
+
+#story-0,
+.story-0,
+#story-1,
+.story-1,
+#story-2,
+.story-2,
+#story-3,
+.story-3,
+#story-4,
+.story-4,
+#story-5,
+.story-5
+#story-6,
+.story-6,
+#story-7,
+.story-7,
+#story-8,
+.story-8,
+#story-9,
+.story-9,
+#story-10,
+.story-10,
+#story-11,
+.story-11,
+#story-12,
+.story-12,
+#story-13,
+.story-13 {
+  height: 50em;
+}
+
+.messageFormControlTextarea1 {
+  display: block;
+  width: 100em;
+}
+
+.moon {
+  /* width: auto; */
+  height: 3171px;
+  padding: 900px 0 0 0;
+  background-image: url("../../imgs/moon-2.jpg");
+}
+
+.tea {
+  /* width:auto; */
+  height: 3270px;
+  padding: 1500px 0 0 0;
+  background-image: url("../../imgs/tea-2.jpg");
+}
+
+.case-studies {
+  background-color: #cfc3ab;
+  height: 700px;
+}
+
+.case-study {
+  height: 40.625em;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.125);
+}
+
+/* box styles */
+.margin-center {
+  margin: 0 auto;
+}
+
+.border-green {
+  border: 1px solid green;
+}
+
+.padd-auto {
+  padding: 0;
+}
+
+.showing {
+  padding: 0 0 0 1em;
+}
+
+.blur-lg-up {
+  right: 10%;
+  /* width: 110%; */
+  box-shadow: 0 -2em 3em rgba(207, 195, 171, 0.99) !important;
+}
+
+.background-yellow {
+  background-color: yellow;
+}
+
+/* typography */
+p {
+  margin-bottom: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  /* margin: 1.414em 0 0.5em; */
+  /* font-weight: inherit; */
+  line-height: 1.12;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+small, .font_small {
+  font-size: 0.707em;
+}
+
+.text-white:hover,
+.neon-shadow-blue {
+  text-transform: uppercase;
+  text-shadow: 2px 3px 10px #04a3e5;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 36em) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 48em) {
+  html {
+    font-size: 120%;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 62em) {
+  html {
+    font-size: 140%;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 75em) {
+  html {
+    font-size: 160%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 35.99875em) {}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 47.99875em) {}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 61.99875em) {}
+
+@media (max-width: 63.81125em) {
+  .hide-icon {
+    display: none;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 74.99875em) {}
