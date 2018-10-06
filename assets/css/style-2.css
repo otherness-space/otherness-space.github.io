@@ -215,7 +215,6 @@ ul li a {
 }
 
 /*  */
-
 footer .falg {
   margin: .25em 0 0 0;
 }
@@ -224,7 +223,6 @@ footer .falg:hover,
 ul li a:hover {
   text-shadow: 2px 3px 10px rgba(255, 255, 255, .85);
 }
-
 
 .neon-shadow-blue {
   text-transform: uppercase;
@@ -235,24 +233,28 @@ ul li a:hover {
   font: normal normal 1.75em/1;
 }
 
+footer .falg {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
 /* breakpoints */
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 36em) {}
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 36em) {}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 48em) {}
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 48em) {}
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 62em) {}
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 62em) {}
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 75em) {}
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 75em) {}
 
-// Special fontawesome icons, 1300px and up
-
-@media (min-width: 81.25em) {
+/* Special fontawesome icons, 1300px and up */
+@media only screen and (min-width: 81.25em) {
   footer .falg {
     margin: .5em 0 0 0;
     /* font-size: .875em; */
@@ -262,23 +264,23 @@ ul li a:hover {
   }
 }
 
-// Extra small devices (portrait phones, less than 576px)
-/* @media (max-width: 575.98px) {} */
-@media (max-width: 35.99875em) {}
+/* Extra small devices (portrait phones, less than 576px) */
+/* @media only screen and (max-width: 575.98px) {} */
+@media only screen and (max-width: 35.99875em) {}
 
-// Small devices (landscape phones, less than 768px)
-/* @media (max-width: 767.98px) {} */
-@media (max-width: 47.99875em) {}
+/* Small devices (landscape phones, less than 768px) */
+/* @media only screen and (max-width: 767.98px) {} */
+@media only screen and (max-width: 47.99875em) {}
 
-// Medium devices (tablets, less than 992px)
-/* @media (max-width: 991.98px) {} */
-@media (max-width: 61.99875em) {}
+/* Medium devices (tablets, less than 992px) */
+/* @media only screen and (max-width: 991.98px) {} */
+@media only screen and (max-width: 61.99875em) {}
 
-@media (max-width: 63.81125em) {}
+@media only screen and (max-width: 63.81125em) {}
 
-// Large devices (desktops, less than 1200px)
-/* @media (max-width: 1199.98px) {} */
-@media (max-width: 74.99875em) {}
+/* Large devices (desktops, less than 1200px) */
+/* @media only screen and (max-width: 1199.98px) {} */
+@media only screen and (max-width: 74.99875em) {}
 
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
