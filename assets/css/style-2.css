@@ -216,6 +216,11 @@ ul li a {
 
 /*  */
 
+footer .falg {
+  margin: .25em 0 0 0;
+}
+
+footer .falg:hover,
 ul li a:hover {
   text-shadow: 2px 3px 10px rgba(255, 255, 255, .85);
 }
@@ -244,6 +249,18 @@ ul li a:hover {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 75em) {}
+
+// Special fontawesome icons, 1300px and up
+
+@media (min-width: 81.25em) {
+  footer .falg {
+    margin: .5em 0 0 0;
+    /* font-size: .875em; */
+    font-size: 1.33333em;
+    line-height: .75em;
+    vertical-align: -.0667em;
+  }
+}
 
 // Extra small devices (portrait phones, less than 576px)
 /* @media (max-width: 575.98px) {} */
